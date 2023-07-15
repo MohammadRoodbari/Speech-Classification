@@ -21,8 +21,6 @@ pre_processor =  DataPreProcessing(r'D:\Speech processing\Speech Classification 
 
 Dataset = pre_processor.transform()
 
-# Dataset = pd.read_csv('D:\Speech processing\Speech Classification and Clustering\src\dataset\Data_final.csv' , low_memory= False)
-
 ########## Gender Classification ##########
 
 X=Dataset.drop(['sex' , 'voice_id' , 'emotionID','textID','age','Unnamed: 0'],axis=1)
