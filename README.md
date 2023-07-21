@@ -3,14 +3,14 @@
 > This repository is made for the Machine Learning course project - 2022.
 
 ---
-# 1. Introduction
+## Introduction
 
 The goal of this project is to implement an audio classification system, which:
 1. first reads in an audio,
 2. and then recognizes the class(label) of this audio.
 
 
-### Classes
+## Classes
 
 The data is divided into four class based on emotion:
 > anger, happiness, sadness, neutral
@@ -18,13 +18,13 @@ Also The data is divided into two class based on sex:
 > male, female
 
 
-### Method
+## Method
 
 Features: MFCCs (Mel-frequency cepstral coefficients), Spectral Centroid, Spectral Bandwidth, Rolloff, Melspectrogram, Spectral Contrast, Spectral Flatness are computed from the raw audio.
 
 Classifier: SVM (Support Vector Machine) is adopted for gender classificatioin, and CNN (Convolutional Neural Network) is adopted for emotion classificatioin
 
-### Result
+## Result
 
 - Gender Classificatioin
 
@@ -39,11 +39,11 @@ Classifier: SVM (Support Vector Machine) is adopted for gender classificatioin, 
 |      0.601      |   0.4742    |
 
 
-# 3. Download Data
+## Download Data
 
 Voice data can be downloaded from [here](https://drive.google.com/drive/folders/1wnJ9eFlnJZsY1lNTOgLbnRrVgc_RDUNI?usp=drive_link).
 
-# 4. Install dependencies
+## Install dependencies
 
 In a Python3 virtual environment run:
 
