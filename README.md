@@ -14,13 +14,14 @@ The goal of this project is to implement an audio classification system, which:
 
 The data is divided into four class based on emotion:
 > anger, happiness, sadness, neutral
+
 Also The data is divided into two class based on sex:
 > male, female
 
 
 ## Method
 
-Features: MFCCs (Mel-frequency cepstral coefficients), Spectral Centroid, Spectral Bandwidth, Rolloff, Melspectrogram, Spectral Contrast, Spectral Flatness are computed from the raw audio.
+Features: MFCCs (Mel-frequency cepstral coefficients), Spectral Centroid, Spectral Bandwidth, Rolloff, Melspectrogram, Spectral Contrast, Spectral Flatness are computed from the raw audio using [librosa](https://github.com/librosa/librosa) librosa.
 
 Classifier: SVM (Support Vector Machine) is adopted for gender classificatioin, and CNN (Convolutional Neural Network) is adopted for emotion classificatioin
 
