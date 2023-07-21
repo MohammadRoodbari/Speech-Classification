@@ -21,7 +21,7 @@ Also The data is divided into two class based on sex:
 
 ## Method
 
-Features: MFCCs (Mel-frequency cepstral coefficients), Spectral Centroid, Spectral Bandwidth, Rolloff, Melspectrogram, Spectral Contrast, Spectral Flatness are computed from the raw audio using [librosa](https://github.com/librosa/librosa) librosa.
+Features: MFCCs (Mel-frequency cepstral coefficients), Spectral Centroid, Spectral Bandwidth, Rolloff, Melspectrogram, Spectral Contrast, Spectral Flatness are computed from the raw audio using [librosa](https://github.com/librosa/librosa) package.
 
 Classifier: SVM (Support Vector Machine) is adopted for gender classificatioin, and CNN (Convolutional Neural Network) is adopted for emotion classificatioin
 
